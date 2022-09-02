@@ -9,8 +9,11 @@ public class Main {
     int test;
 
     test = y1.compareTo(y2);
-    System.out.println(test);
 
+
+    if (test == 1){
+        System.out.println("el yate de "+ y1.capitan.getNombre()+ " es mas lujoso que el yate de " + y2.capitan.getNombre());
+    }
 
     }
 }
